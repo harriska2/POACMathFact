@@ -286,6 +286,7 @@
                                              otherButtonTitles:nil];
     [theAlert show];
 }
+
 - (void) resizeTopToolbar
 {
     if ([_iOSVersion floatValue] >= 7.0) {
@@ -597,7 +598,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _iOSVersion = [[UIDevice currentDevice] systemVersion];
-    [self displayAlertMessage];
+    /*[self displayAlertMessage];*/
     
     [self resizeTopToolbar];
     
@@ -611,6 +612,7 @@
     //Check inital setup
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"hasCreatedDefaultCourse"]) {
         [self createDefaultCourse];
+        [self displayAlertMessage]; //Kathy moved it to see if this works
     }
     
     

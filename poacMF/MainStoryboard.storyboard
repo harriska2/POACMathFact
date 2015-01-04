@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="rPp-Vw-Shc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="rPp-Vw-Shc">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Document Select Table View Controller - Courses-->
+        <!--Courses-->
         <scene sceneID="4qj-tr-q0V">
             <objects>
                 <tableViewController storyboardIdentifier="DocumentSelectTableViewController" id="daL-EW-r5K" customClass="DocumentSelectTableViewController" sceneMemberID="viewController">
@@ -134,7 +134,6 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.7568628191947937" green="0.88235300779342651" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="9Sn-CC-W82"/>
@@ -169,12 +168,12 @@
             </objects>
             <point key="canvasLocation" x="-2749" y="-2130"/>
         </scene>
-        <!--Users Table View Controller - Students-->
+        <!--Students-->
         <scene sceneID="Foe-lt-VFm">
             <objects>
                 <tableViewController storyboardIdentifier="usersTableViewController" id="m3L-O9-a6Q" customClass="UsersTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="eb2-q5-H4K">
-                        <rect key="frame" x="0.0" y="64" width="320" height="788"/>
+                        <rect key="frame" x="0.0" y="64" width="308" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -237,7 +236,7 @@
             </objects>
             <point key="canvasLocation" x="-894" y="-3256"/>
         </scene>
-        <!--Sets Table View Controller - Sets-->
+        <!--Sets-->
         <scene sceneID="Fym-hT-yh9">
             <objects>
                 <tableViewController storyboardIdentifier="setsTableViewController" wantsFullScreenLayout="YES" id="Yf9-Wp-TaX" customClass="SetsTableViewController" sceneMemberID="viewController">
@@ -306,7 +305,7 @@
             </objects>
             <point key="canvasLocation" x="611" y="-824"/>
         </scene>
-        <!--Summary Table View Controller - S-->
+        <!--S-->
         <scene sceneID="84X-yV-V0g">
             <objects>
                 <tableViewController title="S" id="cRl-0L-vxh" customClass="SummaryTableViewController" sceneMemberID="viewController">
@@ -1351,7 +1350,7 @@
             </objects>
             <point key="canvasLocation" x="-3065" y="2013"/>
         </scene>
-        <!--Student Main View Controller - User Name-->
+        <!--User Name-->
         <scene sceneID="E84-hc-Y7m">
             <objects>
                 <viewController id="jbB-Kf-6Or" customClass="StudentMainViewController" sceneMemberID="viewController">
@@ -1421,7 +1420,7 @@
             </objects>
             <point key="canvasLocation" x="-1207" y="1043"/>
         </scene>
-        <!--Subject Detail View Controller - Subject-->
+        <!--Subject-->
         <scene sceneID="8ue-ux-8Tg">
             <objects>
                 <viewController id="urv-Zy-bvY" customClass="SubjectDetailViewController" sceneMemberID="viewController">
@@ -1454,7 +1453,7 @@
             </objects>
             <point key="canvasLocation" x="-1927" y="1554"/>
         </scene>
-        <!--Test View Controller - Tester-->
+        <!--Tester-->
         <scene sceneID="9aH-Un-MPM">
             <objects>
                 <viewController storyboardIdentifier="TestViewController" id="KpE-ok-NA2" customClass="TestViewController" sceneMemberID="viewController">
@@ -1693,7 +1692,7 @@
             </objects>
             <point key="canvasLocation" x="1946" y="2013"/>
         </scene>
-        <!--User Detail Table View Controller - Select Student-->
+        <!--Select Student-->
         <scene sceneID="0HV-TA-RFL">
             <objects>
                 <viewController storyboardIdentifier="UserDetailTableViewController" id="O7s-mG-Ad2" customClass="UserDetailTableViewController" sceneMemberID="viewController">
@@ -1830,7 +1829,7 @@
             </objects>
             <point key="canvasLocation" x="1208" y="-3585"/>
         </scene>
-        <!--Practice View Controller - Tester-->
+        <!--Tester-->
         <scene sceneID="5oN-Iq-VNS">
             <objects>
                 <viewController storyboardIdentifier="PracticeViewController" id="j2a-Eg-zWi" customClass="PracticeViewController" sceneMemberID="viewController">
@@ -1985,7 +1984,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="33"/>
                                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" title="NEXT">
+                                        <state key="normal" title="NEXT" backgroundImage="button_125x60.png">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -2165,7 +2164,7 @@
             </objects>
             <point key="canvasLocation" x="-5358" y="-1312"/>
         </scene>
-        <!--Course Table View Controller - Create Course-->
+        <!--Create Course-->
         <scene sceneID="F06-Y4-HPg">
             <objects>
                 <tableViewController storyboardIdentifier="AECourseTableViewController" id="AJg-9M-l3X" customClass="AECourseTableViewController" sceneMemberID="viewController">
